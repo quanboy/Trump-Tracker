@@ -2,7 +2,7 @@ import requests
 import json, operator
 from newsapi import NewsApiClient
 
-newsapi = NewsApiClient(api_key='24c82007b3984a03acfafa571aed921b')
+newsapi = NewsApiClient(api_key='')
 
 top_headlines = newsapi.get_top_headlines(q='trump',
                                       language='en',
